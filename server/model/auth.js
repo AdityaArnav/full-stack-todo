@@ -7,7 +7,7 @@ const authSchema = mongoose.Schema({
     },
     email: {
         type:String,
-        type: Unique,
+        // type: Unique,
         required: true
     },
     username:{
