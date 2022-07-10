@@ -8,6 +8,7 @@ const { signupFn, loginFn } = require('../controller/authController');
 const authRoute = Router();
 
 const signup = authRoute.post('/signup', signupFn);
-const login = authRoute.post('/login',loginFn)
+const login = authRoute.post('/login',loginFn);
+
 
 module.exports = authRoute;
